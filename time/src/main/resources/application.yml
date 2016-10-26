@@ -1,0 +1,15 @@
+management:
+  contextPath: /management
+  security:
+    enabled: false
+security:
+  basic:
+    enabled: false
+
+spring:
+  cloud:
+    stream:
+      bindings:
+        output:
+          destination: ticktock
+
